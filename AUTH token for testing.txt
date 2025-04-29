@@ -1,0 +1,22 @@
+
+
+login json token testing api ...
+
+{
+  "email": "ishaan.vora8924@example.com",
+  "password": "Ishaan@Secure2025"
+}
+
+here is the registration 
+
+{
+  "name": "Ishaan Vora",
+  "email": "ishaan.vora8924@example.com",
+  "phoneNumber": "9392881192",
+  "role": "user",
+  "password": "Ishaan@Secure2025"
+}
+
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZjkwOTNkM2YwYjA2MDZiMjliMGIzZSIsImlhdCI6MTc0NDM3NTk2OSwiZXhwIjoxNzQ2OTY3OTY5fQ.tg4kDMPcEtQkAWdgtSNqWUOR8axLPYYuUrsAwuxBHE4
+•
