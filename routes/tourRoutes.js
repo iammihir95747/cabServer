@@ -18,7 +18,7 @@ router.delete('/:id', protect, isAdmin, deleteTourPackage);
 module.exports = router;
 
 // routes/userRoutes.js
-const { getMyProfile, updateMyProfile } = require('../controllers/userController');
+const { getMyProfile, updateMyProfile } = require('../Controllers/userController');
 // Add admin routes for user management later if needed
 
 router.use(protect);
