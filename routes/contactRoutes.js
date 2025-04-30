@@ -1,5 +1,5 @@
 const express = require('express');
-const { submitInquiry, getAllInquiries, updateInquiryStatus } = require('../controllers/contactController');
+const { submitInquiry, getAllInquiries, updateInquiryStatus } = require('../Controllers/contactController.js');
 const { contactInquiryValidator } = require('../validators/contactValidators');
 const { handleValidationErrors } = require('../middlewares/validationResult');
 const { protect } = require('../middlewares/authMiddleware');
