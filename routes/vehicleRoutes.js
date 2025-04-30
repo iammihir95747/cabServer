@@ -1,5 +1,5 @@
 const express = require('express');
-const { addVehicle, getAllVehicles, getVehicleById, updateVehicle, deleteVehicle, getAvailableVehicles } = require('../controllers/vehicleController');
+const { addVehicle, getAllVehicles, getVehicleById, updateVehicle, deleteVehicle, getAvailableVehicles } = require('../Controllers/vehicleController.js');
 const { protect } = require('../middlewares/authMiddleware');
 const { isAdmin } = require('../middlewares/adminMiddleware');
 const { vehicleValidator } = require('../validators/vehicleValidators');
