@@ -1,5 +1,5 @@
 const express = require('express');
-const { getAdminDashboardStats, adminUpdateBooking } = require('../controllers/adminController');
+const { getAdminDashboardStats, adminUpdateBooking } = require('../Controllers/adminController.js');
 const { protect } = require('../middlewares/authMiddleware');
 const { isAdmin } = require('../middlewares/adminMiddleware');
 // Add relevant validators if needed
