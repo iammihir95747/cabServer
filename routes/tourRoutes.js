@@ -1,5 +1,5 @@
 const express = require('express');
-const { createTourPackage, getAllTourPackages, getTourPackageById, updateTourPackage, deleteTourPackage } = require('../controllers/tourController');
+const { createTourPackage, getAllTourPackages, getTourPackageById, updateTourPackage, deleteTourPackage } = require('../Controllers/tourController');
 const { protect } = require('../middlewares/authMiddleware');
 const { isAdmin } = require('../middlewares/adminMiddleware');
 const { tourPackageValidator } = require('../validators/tourValidators');
