@@ -1,5 +1,5 @@
 const express = require('express');
-const { registerUser, loginUser, getProfile } = require('../controllers/authController');
+const { registerUser, loginUser, getProfile } = require('../Controllers/authController.js');
 const { registerValidator, loginValidator } = require('../validators/authValidators');
 const { handleValidationErrors } = require('../middlewares/validationResult');
 const { protect } = require('../middlewares/authMiddleware'); // ✅ You need this middleware to protect the profile route
